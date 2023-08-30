@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4ecec;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.kaste {
+  background-color: #f6fbea;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgb(83, 80, 80, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #e1c1c1;
+  color: #756666;
+  border: none;
+  cursor: pointer;
+}
